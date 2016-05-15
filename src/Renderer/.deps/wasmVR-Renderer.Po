@@ -1,0 +1,259 @@
+src/Renderer/wasmVR-Renderer.o: src/Renderer/Renderer.cpp \
+  src/Renderer/Renderer.hpp \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/GLES3/gl3.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/GLES3/gl3platform.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/KHR/khrplatform.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/stdint.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/bits/alltypes.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/bits/stdint.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/emscripten/html5.h \
+  src/Renderer/EmRenderer.hpp \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/iostream \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__config \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/unistd.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/features.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/bits/posix.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/errno.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/bits/errno.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/ios \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/iosfwd \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/wchar.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/wchar.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__locale \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/string \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstring \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/string.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/string.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/strings.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstdio \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/stdio.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cwchar \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cwctype \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cctype \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/ctype.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/ctype.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/wctype.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/wctype.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/algorithm \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/initializer_list \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstddef \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/stddef.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/type_traits \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/utility \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__tuple \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/memory \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/typeinfo \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/exception \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstdint \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/new \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/limits \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__undef_min_max \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/iterator \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__functional_base \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__debug \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/tuple \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/atomic \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/stdexcept \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/mutex \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__mutex_base \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/chrono \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/ctime \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/time.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/time.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/ratio \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/climits \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/limits.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/bits/limits.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/system_error \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cerrno \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/pthread.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/sched.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/functional \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/locale.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/xlocale.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/streambuf \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/istream \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/ostream \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/locale \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstdarg \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/stdarg.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/stdarg.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstdlib \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/stdlib.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/stdlib.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/alloca.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/nl_types.h \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/bitset \
+  /home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__bit_reference
+
+src/Renderer/Renderer.hpp:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/GLES3/gl3.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/GLES3/gl3platform.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/KHR/khrplatform.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/stdint.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/bits/alltypes.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/bits/stdint.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/emscripten/html5.h:
+
+src/Renderer/EmRenderer.hpp:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/iostream:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__config:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/unistd.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/features.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/bits/posix.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/errno.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/bits/errno.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/ios:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/iosfwd:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/wchar.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/wchar.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__locale:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/string:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstring:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/string.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/string.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/strings.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstdio:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/stdio.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cwchar:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cwctype:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cctype:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/ctype.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/ctype.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/wctype.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/wctype.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/algorithm:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/initializer_list:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstddef:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/stddef.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/type_traits:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/utility:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__tuple:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/memory:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/typeinfo:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/exception:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstdint:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/new:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/limits:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__undef_min_max:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/iterator:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__functional_base:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__debug:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/tuple:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/atomic:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/stdexcept:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/mutex:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__mutex_base:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/chrono:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/ctime:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/time.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/time.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/ratio:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/climits:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/limits.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/bits/limits.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/system_error:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cerrno:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/pthread.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/sched.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/functional:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/locale.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/xlocale.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/streambuf:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/istream:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/ostream:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/locale:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstdarg:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/stdarg.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/stdarg.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/cstdlib:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/compat/stdlib.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/stdlib.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/alloca.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libc/nl_types.h:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/bitset:
+
+/home/ckinloch/Projects/emsdk/emscripten/incoming/system/include/libcxx/__bit_reference:

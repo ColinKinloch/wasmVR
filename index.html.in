@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>wasmVR</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <meta name="viewport" content="initial-scale=1, user-scalable=no, width=device-width">
+    <style>
+      html {
+        width: 100%;
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        width: inherit;
+        height: inherit;
+      }
+
+      #canvas {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas class="emscripten" id="canvas"></canvas>
+    <script type="text/javascript">
+      var Module = {
+        canvas: document.querySelector("#canvas"),
+        TOTAL_MEMORY: @total_memory@
+      }
+      Module.getVRDevices = () => {
+        if(!navigator.getVRDevices) return false;
+        
+        navigator.getVRDevices().then(
+        (devices) => {
+          if(devices.length > 0) Module.vr = true;
+          else Module.vr = false;
+          let hmvrDevice;
+          let positionDevice;
+          for(let device of devices) {
+            if(device instanceof HMDVRDevice) hmvrDevice = device;
+            if(device instanceof PositionSensorVRDevice) positionDevice = device;
+          }
+          Module.setVRDevices(hmvrDevice, positionDevice);
+        }
+          
+        )
+        return true;
+      }
+    </script>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="wasmVR.js"></script>
+  </body>
+</html>

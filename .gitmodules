@@ -1,0 +1,12 @@
+[submodule "ogg"]
+	path = deps/ogg
+	url = https://git.xiph.org/ogg.git
+[submodule "vorbis"]
+	path = deps/vorbis
+	url = https://git.xiph.org/vorbis.git
+[submodule "glm"]
+	path = deps/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "json"]
+	path = deps/json
+	url = https://github.com/nlohmann/json.git

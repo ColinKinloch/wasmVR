@@ -1,0 +1,10 @@
+{
+  "name": "wasmvr",
+  "version": "1.0.0",
+  "description": "wasm + WebVR",
+  "scripts": {
+    "build": "build.sh"
+  },
+  "author": "Colin Kinloch",
+  "license": "ISC"
+}
